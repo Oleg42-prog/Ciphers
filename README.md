@@ -21,7 +21,6 @@ swipl ciphers.pl
 ?- caesarCipher('C', `HELLO`, X).
 X = "JGNNQ" .
 
-
 ?- deCaesarCipher('C', X, `JGNNQ`).
 X = "HELLO" .
 
