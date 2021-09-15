@@ -1,6 +1,7 @@
 order('Z', 'A').
-order(A, B) :- string_chars(`ABCDEFGHIJKLMNOPQRSTUVWXYZ`, Alphabet),
-nextto(A, B, Alphabet).
+order(A, B) :- 
+	string_chars(`ABCDEFGHIJKLMNOPQRSTUVWXYZ`, Alphabet),
+	nextto(A, B, Alphabet).
 
 caesar(K, 'A', K).
 caesar(K, A, X) :- 
