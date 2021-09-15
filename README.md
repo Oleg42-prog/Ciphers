@@ -24,9 +24,9 @@ X = "JGNNQ" .
 ?- deCaesarCipher('C', X, `JGNNQ`).
 X = "HELLO" .
 
-?- vigenereCipher(`LEMON`, `ATTACKATDAWN`, X).
+?- vigenereCipher(`LEMONLEMONLE`, `ATTACKATDAWN`, X).
 X = "LXFOPVEFRNHR" .
 
-?- deVigenereCipher(`LEMON`, X, `LXFOPVEFRNHR`).
+?- deVigenereCipher(`LEMONLEMONLE`, X, `LXFOPVEFRNHR`).
 X = "ATTACKATDAWN" .
 ```
